@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6fff8"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:background="#CEA4C3B2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="231dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="146dp"
+            android:layout_height="731dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#E4E8EDDF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="180dp"
+                android:gravity="center"
+                android:text="Age:"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="185dp"
+                android:layout_height="101dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Occupations Current/Previous:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="contact Number:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="Email:"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="278dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="140dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="220dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="220dp"
+                android:layout_height="126dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="222dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="30dp"
+                />
+
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="245dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="23dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
